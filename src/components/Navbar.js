@@ -52,6 +52,7 @@ function Navbar() {
                 Packages
               </Link>
             </li>
+
             <li className='nav-item'>
               <Link
                 to='/products'
@@ -62,7 +63,6 @@ function Navbar() {
               </Link>
             </li>
 
-           
             
           </ul>
           {button && <Button className='mb-2' buttonStyle='btn--outline'>Register</Button>}
